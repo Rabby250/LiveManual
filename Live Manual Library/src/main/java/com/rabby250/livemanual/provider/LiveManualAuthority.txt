@@ -1,0 +1,12 @@
+// Do NOT declare this class in Live Manual Library
+// (Should be declared individually by applications)
+
+package com.rabby250.livemanual.provider;
+
+// This class should be excluded from ProGuard obfuscation (by using the
+// -keepnames option) in order for reflection to function properly
+public class LiveManualAuthority {
+    // Applications should declare their own authority below
+    // (identical to the one declared in Manifest)
+    public static final String AUTHORITY = "com.rabby250.livemanual";
+}
